@@ -1,0 +1,5 @@
+# .htaccess
+
+# sql injection protection
+# disallow .php, etc
+# login, logout, search
