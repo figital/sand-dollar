@@ -4,6 +4,8 @@
 # disallow .php, etc
 # login, logout, search
 
+php_value auto_prepend_file ../includes/application.php
+
 DirectoryIndex index.html index.php
 
 # login
