@@ -1,19 +1,19 @@
 #sand-dollar
 
-anti-frameworky boilerplatishness
+Anti-frameworky boilerplatish'ness.
 
-just putting some generic reusable logic into git hub for easy pull.
+Just putting some generic reusable logic into git hub for easy pull.
 
-this is about as frameworky as i'll like it.
+This is about as frameworky as i'll like it.
 
-i promise not to make you use it.
+I promise not to make you use it.
 
-####temporary assumptions
-* os is debian'ish
-* http server is /etc/apache2
-* application root directory is in /var/www
+####Temporary Assumptions
+* OS is Debian'ish
+* HTTP server is /etc/apache2
+* Application root directory is in /var/www
 
-as i learn php i'm just pulling over app concepts from other environs. inspired by [html5-boilerplate](http://github.com/paulirish/html5-boilerplate) .... i'll have to dig in there for more inspiration :)
+As I learn PHP I'm just pulling over application concepts from other environments. Inspired by [html5-boilerplate](http://github.com/paulirish/html5-boilerplate) .... I'll have to dig in there for more inspiration :)
 
 gist test:
 
