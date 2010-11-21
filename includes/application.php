@@ -1,6 +1,5 @@
 <?
 
-	# here's some php
-
+	error_reporting(E_ALL);
 
 ?>

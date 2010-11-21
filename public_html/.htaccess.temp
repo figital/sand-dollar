@@ -1,0 +1,23 @@
+# .htaccess
+
+# sql injection protection
+# disallow .php, etc
+# login, logout, search
+
+php_value auto_prepend_file ../includes/application.php
+
+DirectoryIndex index.html index.php
+
+# login
+# logout
+# search
+# admin
+
+RewriteEngine On
+
+# disallow anything but the basics: alphanumeric, ?, &, etc.
+# if you're going to let anything else in, you better document it here.
+RewriteCond %{QUERY_STRING} [^-_A-Za-z0-9\&\=\%] [OR]
+RewriteCond %{QUERY_STRING} \%(25)*27|%(25)*22|%(25)*60
+RewriteRule .* http://%{SERVER_NAME}:80%{REQUEST_URI}? [R=301,L]
+
