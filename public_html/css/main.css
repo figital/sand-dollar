@@ -1,9 +1,12 @@
 body {
-	background-color:#fff;
+	background-color:#ccc;
+	font-family:sans-serif;
+	font-size:12px;
+	line-height:160%;
 }
 
 .box_shadow {
-     -moz-box-shadow: 4px 4px 8px #666; /* FF3.5+ */
-  -webkit-box-shadow: 4px 4px 8px #666; /* Saf3.0+, Chrome */
-          box-shadow: 4px 4px 8px #666; /* Opera 10.5, IE 9 */
+     -moz-box-shadow: 4px 4px 8px #333; /* FF3.5+ */
+  -webkit-box-shadow: 4px 4px 8px #333; /* Saf3.0+, Chrome */
+          box-shadow: 4px 4px 8px #333; /* Opera 10.5, IE 9 */
 }

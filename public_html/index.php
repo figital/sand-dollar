@@ -12,7 +12,7 @@
 	[ <a href="/test">API TEST</a> ]
 	<p>
 	
-	<img style="width:100px;" src="images/sand-dollar.gif">
+	<img style="width:100px;" src="images/sand-dollar2.png">
 	
 	<h1>sand-dollar</h1>
 
@@ -28,7 +28,7 @@
 	in leiu of content cached at the github wiki here's an introduction to  <a href="http://thirtythousand.org">thirtythousand.org</a>:
 
 
-	<div class="box_shadow" style="border:1px solid #ccc;padding:20px;">
+	<div class="box_shadow" style="border:1px solid #666;padding:20px;background-color:#fff;">
 	The framers of the Constitution and the Bill of Rights intended that the total population of Congressional districts never exceed 50 to 60 thousand. Currently, the average population size of the districts is nearly 700,000 and, consequently, the principle of proportionally equitable representation has been abandoned.
 	<p>
 	The historical trend relative to our federal Representation is illustrated in the charts below. The vertical bar chart illustrates that the total number of congressional districts was increased every ten years from 1790 to 1910 (with a single exception). These increases were a direct result of the growth in total population as was intended by the framers of the Constitution and the Bill of Rights.
