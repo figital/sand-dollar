@@ -12,7 +12,7 @@
 	[ <a href="/test">API TEST</a> ]
 	<p>
 	
-	<img style="width:100px;" src="images/sand-dollar2.png">
+	<img style="width:100px;float:left;margin-right:30px;" src="images/sand-dollar2.png">
 	
 	<h1>sand-dollar</h1>
 
@@ -25,7 +25,7 @@
 	<i style="color:#999;">welcome to lorem ipsum dolor</i>
 	<p>
 
-	in leiu of content cached at the github wiki here's an introduction to  <a href="http://thirtythousand.org">thirtythousand.org</a>:
+	in leiu of content cached at the github wiki here's an introduction to  <a href="http://thirtythousand.org">thirtythousand.org</a> :
 
 
 	<div class="box_shadow" style="border:1px solid #666;padding:20px;background-color:#fff;">
