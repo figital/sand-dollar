@@ -10,10 +10,13 @@ this is about as frameworky as i'll like it.
 
 i promise not to make you use it.
 
-at least temporarily, i will assume the server is debian'ish, the http server is /etc/apache2 and the application root directory is in /var/www
+####temporary assumptions
+* os is debian'ish
+* http server is /etc/apache2
+* application root directory is in /var/www
 
-* as i learn php i'm just pulling over app concepts from other environs. inspired by [html5-boilerplate](http://github.com/paulirish/html5-boilerplate) .... i'll have to dig in there for more inspiration :)
+as i learn php i'm just pulling over app concepts from other environs. inspired by [html5-boilerplate](http://github.com/paulirish/html5-boilerplate) .... i'll have to dig in there for more inspiration :)
 
-* gist test:
+gist test:
 
 https://gist.github.com/662514
