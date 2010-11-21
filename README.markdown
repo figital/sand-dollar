@@ -10,7 +10,7 @@ this is about as frameworky as i'll like it.
 
 i promise not to make you use it.
 
-at least temporarily, i will assume that your http server is /etc/apache2 and the applications root directory is in /var/www
+at least temporarily, i will assume the server is debian'ish, the http server is /etc/apache2 and the application root directory is in /var/www
 
 * as i learn php i'm just pulling over app concepts from other environs. inspired by [html5-boilerplate](http://github.com/paulirish/html5-boilerplate) .... i'll have to dig in there for more inspiration :)
 
