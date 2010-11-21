@@ -1,10 +1,8 @@
-#Markdown Test
+#sand-dollar
 
-##A second level markdown test
+anti-frameworky boilerplatishness
 
-here's the readme file.
-
-just putting some reusable logic into git hub for easy pull.
+just putting some generic reusable logic into git hub for easy pull.
 
 this is about as frameworky as i'll like it.
 
