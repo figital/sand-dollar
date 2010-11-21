@@ -1,7 +1,9 @@
-// here's some css !
-
 body {
-
 	background-color:#fff;
+}
 
+.box_shadow {
+     -moz-box-shadow: 4px 4px 8px #666; /* FF3.5+ */
+  -webkit-box-shadow: 4px 4px 8px #666; /* Saf3.0+, Chrome */
+          box-shadow: 4px 4px 8px #666; /* Opera 10.5, IE 9 */
 }
