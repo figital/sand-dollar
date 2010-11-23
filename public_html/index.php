@@ -1,15 +1,9 @@
-<html>
-<head>
-	<title>sand-dollar</title>
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/css/main.css" />
-</head>
+<?
+	include("../includes/header.php");
+	include("../includes/navigation.php");
+?>
 
-<body>
-	
-	[ <a href="https://github.com/figital/sand-dollar">GITHUB</a> ]
-	[ <a href="/server-status">SERVER-STATUS</a> ]
-	[ <a href="/test">API TEST</a> ]
+
 	<p>
 	
 	<img style="width:100px;float:left;margin-right:30px;" src="images/sand-dollar2.png">
@@ -36,7 +30,6 @@
 	Note that the last increase in representation occurred after the 1910 census when the total number of congressional districts was increased to 435. It has remained that size ever since (except for a four-year period when it was temporarily increased to 437 after the admission of Alaska and Hawaii).
 	</div>
 
-	<div id="footer"></div>
-
-</body>
-</html>
+<?
+	include("../includes/header.php");
+?>

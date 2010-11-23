@@ -1,1 +1,5 @@
-<a href="/">Home</a>
+	[ <a href="/">HOME</a> ]
+	[ <a href="https://github.com/figital/sand-dollar">GITHUB</a> ]
+	[ <a href="/server-status">SERVER-STATUS</a> ]
+	[ <a href="/test">API TEST</a> ]
+	[ <a href="/dump">DUMP</a> ]

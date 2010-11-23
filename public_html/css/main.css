@@ -1,5 +1,5 @@
 body {
-	background-color:#ccc;
+	background-color:#eee;
 	font-family:sans-serif;
 	font-size:12px;
 	line-height:160%;
@@ -9,4 +9,33 @@ body {
      -moz-box-shadow: 4px 4px 8px #333; /* FF3.5+ */
   -webkit-box-shadow: 4px 4px 8px #333; /* Saf3.0+, Chrome */
           box-shadow: 4px 4px 8px #333; /* Opera 10.5, IE 9 */
+}
+
+
+/* temporary message formatting for errors */
+
+.message { 
+	margin-bottom:10px;
+	padding:10px;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ccc;
+}
+
+.bad { 
+	background-color:#fcc;
+	border:1px solid #f99;
+	color:#933; 
+}	
+
+.good { 
+	background-color:#cf9;
+	border:1px solid #9c6;
+	color:#393; 
+}
+
+.cool {
+	background-color:#cceeff;
+	border:1px solid #99ccff;
+	color:#336699;
 }
