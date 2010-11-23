@@ -5,6 +5,15 @@ body {
 	line-height:160%;
 }
 
+#footer {
+
+	font-size: 9px;
+	line-height:150%;
+	padding: 20px;
+	color: #ccc;
+
+}
+
 .box_shadow {
      -moz-box-shadow: 4px 4px 8px #333; /* FF3.5+ */
   -webkit-box-shadow: 4px 4px 8px #333; /* Saf3.0+, Chrome */
