@@ -1,11 +1,22 @@
 body {
-	background-color:#ccc;
+	background-color:#eee;
 	font-family:sans-serif;
 	font-size:12px;
 	line-height:160%;
 }
 
+<<<<<<< HEAD
 li { float:left;padding:5px;}
+=======
+#footer {
+
+	font-size: 9px;
+	line-height:150%;
+	padding: 20px;
+	color: #ccc;
+
+}
+>>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
 
 .box_shadow {
      -moz-box-shadow: 4px 4px 8px #333; /* FF3.5+ */
@@ -13,6 +24,36 @@ li { float:left;padding:5px;}
           box-shadow: 4px 4px 8px #333; /* Opera 10.5, IE 9 */
 }
 
+<<<<<<< HEAD
 #footer {
     clear:both;
+=======
+
+/* temporary message formatting for errors */
+
+.message { 
+	margin-bottom:10px;
+	padding:10px;
+	font-size:12px;
+	background-color:#eee;
+	border:1px solid #ccc;
+}
+
+.bad { 
+	background-color:#fcc;
+	border:1px solid #f99;
+	color:#933; 
+}	
+
+.good { 
+	background-color:#cf9;
+	border:1px solid #9c6;
+	color:#393; 
+}
+
+.cool {
+	background-color:#cceeff;
+	border:1px solid #99ccff;
+	color:#336699;
+>>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
 }
