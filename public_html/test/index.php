@@ -1,10 +1,13 @@
 <?
 error_reporting(E_ALL);
-include("../../lib/php-github-api/phpGitHubApi.php");
+
 $github = new phpGitHubApi();
 $repo = $github->getRepoApi()->show('figital', 'sand-dollar');
 
 
+
+
+$commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', 'master');
 
 
 
@@ -21,5 +24,5 @@ $repo = $github->getRepoApi()->show('figital', 'sand-dollar');
 </ul>
 
 <?
-new dBug($repo);
+new dBug($commits);
 ?>

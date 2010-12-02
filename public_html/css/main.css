@@ -5,8 +5,14 @@ body {
 	line-height:160%;
 }
 
+li { float:left;padding:5px;}
+
 .box_shadow {
      -moz-box-shadow: 4px 4px 8px #333; /* FF3.5+ */
   -webkit-box-shadow: 4px 4px 8px #333; /* Saf3.0+, Chrome */
           box-shadow: 4px 4px 8px #333; /* Opera 10.5, IE 9 */
+}
+
+#footer {
+    clear:both;
 }
