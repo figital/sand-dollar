@@ -29,7 +29,6 @@
 	[ <a href="/server-status">SERVER-STATUS</a> ]
 	[ <a href="/test">API TEST</a> ]
 	[ UNIT TESTS ]
-=======
 	include("../includes/header.php");
 	include("../includes/navigation.php");
 ?>
@@ -66,7 +65,6 @@
 
 </body>
 </html>
-=======
 <?
 	include("../includes/footer.php");
 ?>
