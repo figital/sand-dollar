@@ -1,5 +1,4 @@
 <?
-<<<<<<< HEAD
     $github = new phpGitHubApi();
     $commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', 'master');
  
@@ -36,7 +35,6 @@
 ?>
 
 
->>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
 	<p>
 	
 	<img style="width:100px;float:left;margin-right:20px;" src="images/sand-dollar2.png">
@@ -64,7 +62,6 @@
 	Note that the last increase in representation occurred after the 1910 census when the total number of congressional districts was increased to 435. It has remained that size ever since (except for a four-year period when it was temporarily increased to 437 after the admission of Alaska and Hawaii).
 	</div>
 
-<<<<<<< HEAD
 	<div id="footer">Greetings from the footer.</div>
 
 </body>
@@ -73,4 +70,3 @@
 <?
 	include("../includes/footer.php");
 ?>
->>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
