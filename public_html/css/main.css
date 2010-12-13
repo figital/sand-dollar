@@ -5,6 +5,9 @@ body {
 	line-height:160%;
 }
 
+<<<<<<< HEAD
+li { float:left;padding:5px;}
+=======
 #footer {
 
 	font-size: 10px;
@@ -14,6 +17,7 @@ body {
 	margin-bottom:40px;
 
 }
+>>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
 
 .box_shadow {
      -moz-box-shadow: 4px 4px 8px #333; /* FF3.5+ */
@@ -21,6 +25,10 @@ body {
           box-shadow: 4px 4px 8px #333; /* Opera 10.5, IE 9 */
 }
 
+<<<<<<< HEAD
+#footer {
+    clear:both;
+=======
 
 /* temporary message formatting for errors */
 
@@ -48,4 +56,5 @@ body {
 	background-color:#cceeff;
 	border:1px solid #99ccff;
 	color:#336699;
+>>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
 }
