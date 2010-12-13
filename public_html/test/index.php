@@ -26,6 +26,6 @@ Here's a dump of the results of getRepoAPI()->show() :
 	new dBug($repo);
 
 
-	include("../../includes/header.php");
+	include("../../includes/footer.php");
 
 ?>
