@@ -41,7 +41,7 @@ new dBug($commits);
 	new dBug($repo);
 
 
-	include("../../includes/header.php");
+	include("../../includes/footer.php");
 
 >>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
 ?>

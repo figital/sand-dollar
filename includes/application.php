@@ -6,5 +6,15 @@
 	include("/var/www/sand-dollar/lib/php-github-api/phpGitHubApi.php");
 	
 	session_start();
+	
+	$user = Array();
+	$user["firstname"] = "Scott";
+	$user["lastname"] = "Fitchet";
+	$user["handle"] = "figital";
+		
+	
+	$_SESSION["auth"] = false;
+	$_SESSION["user"] = $user;
+	
 
 ?>

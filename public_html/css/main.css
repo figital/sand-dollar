@@ -10,10 +10,11 @@ li { float:left;padding:5px;}
 =======
 #footer {
 
-	font-size: 9px;
+	font-size: 10px;
 	line-height:150%;
 	padding: 20px;
-	color: #ccc;
+	color: #aaa;
+	margin-bottom:40px;
 
 }
 >>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
