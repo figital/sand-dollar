@@ -1,17 +1,12 @@
 <?
-    $github = new phpGitHubApi();
-    $commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', 'master');
+	$github = new phpGitHubApi();
+	$commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', 'master');
+
+	include("../includes/header.php");
+	include("../includes/navigation.php");
  
 ?>
 
-<html>
-<head>
-	<title>sand-dollar</title>
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/css/main.css" />
-</head>
-
-<body>
 	
 	<div class="box_shadow" style="border:1px solid #999;padding:10px;float:right;width:250px;margin-left:30px;height:500px;background-color:#eee;">
 	    <b>Recent Commits</b><p>
@@ -25,13 +20,6 @@
 	    ?>
 	</div>
 	
-	[ <a href="https://github.com/figital/sand-dollar">GITHUB</a> ]
-	[ <a href="/server-status">SERVER-STATUS</a> ]
-	[ <a href="/test">API TEST</a> ]
-	[ UNIT TESTS ]
-	include("../includes/header.php");
-	include("../includes/navigation.php");
-?>
 
 
 	<p>
