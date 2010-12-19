@@ -19,8 +19,8 @@
 <?=$repo["description"]?>
 
 <ul>
-	<li><a href="<?=$repo["url"]?>">home page of your local install</a>
-	<li><a href="<?=$repo["homepage"]?>">home page of the remote repository</a>
+	<li><a href="<?=$repo["homepage"]?>">home page of your local install</a>
+	<li><a href="<?=$repo["url"]?>">home page of the remote repository</a>
 </ul>
 
 Here's a dump of the results of getRepoAPI()->show() :
