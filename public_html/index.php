@@ -1,6 +1,16 @@
 <?
-	$github = new phpGitHubApi();
-	$commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', 'master');
+
+	// this github stuff should be more global. can do later.
+	// don't assume that github is available
+	try {
+		$github = new phpGitHubApi();
+		$commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', 'master');
+
+	} catch (Exception $e) {
+
+		echo 'For the time being,  we shall note that gihub is unavailable and then exit here. <b>Goodbye</b>.';
+		exit();
+	}
 
 	include("../includes/header.php");
 	include("../includes/navigation.php");
@@ -13,7 +23,7 @@
 	    <?
             $i = 0;
             foreach ($commits as $commit) {
-                echo '<li> ' . $commit["committed_date"] . '<br>' . $commit["message"];
+                echo '<li> ' . date("m/d/o g:i A", $commit["committed_date"]) . '<br>' . $commit["message"];
                 $i++;
                 if ($i == 5) { break; }
             }	    
