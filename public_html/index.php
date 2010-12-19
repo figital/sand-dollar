@@ -11,7 +11,8 @@
 		echo 'For the time being,  we shall note that gihub is unavailable and then exit here. <b>Goodbye</b>.';
 		exit();
 	}
-
+	
+	$pageID = "home";
 	include("../includes/header.php");
 	include("../includes/navigation.php");
  

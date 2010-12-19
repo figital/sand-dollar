@@ -1,20 +1,11 @@
 <?
-<<<<<<< HEAD
-error_reporting(E_ALL);
-
-$github = new phpGitHubApi();
-$repo = $github->getRepoApi()->show('figital', 'sand-dollar');
-
-
-=======
->>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
 
 	error_reporting(E_ALL);
-	include("../../lib/php-github-api/phpGitHubApi.php");
+
 	$github = new phpGitHubApi();
 	$repo = $github->getRepoApi()->show('figital', 'sand-dollar');
 
-$commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', 'master');
+	//$commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', 'master');
 
 
 
@@ -35,13 +26,9 @@ $commits = $github->getCommitApi()->getBranchCommits('figital', 'sand-dollar', '
 Here's a dump of the results of getRepoAPI()->show() :
 
 <?
-<<<<<<< HEAD
-new dBug($commits);
-=======
 	new dBug($repo);
 
 
 	include("../../includes/footer.php");
 
->>>>>>> b482fb0ebe7775b2db263eb2c7b1a781265cc622
 ?>

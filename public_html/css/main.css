@@ -5,7 +5,7 @@ body {
 	line-height:160%;
 }
 
-li { float:left;padding:5px;list-style-type:none; }
+#home li { padding:5px;list-style-type:none;float:left; }
 
 #footer {
 	clear: both;
