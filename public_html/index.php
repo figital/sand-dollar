@@ -19,12 +19,13 @@
 ?>
 
 	
-	<div class="box_shadow" style="border:1px solid #999;padding:10px;float:right;width:250px;margin-left:30px;height:500px;background-color:#eee;">
-	    <b>Recent Commits</b><p>
+	<div class="box_shadow" style="font-size:10px;border:1px solid #999;padding:10px;float:right;width:250px;margin-left:30px;background-color:#fff;">
+	    <b>Recent Commits :</b><br>
 	    <?
             $i = 0;
             foreach ($commits as $commit) {
-                echo '<li> ' . date("m/d/o g:i A", $commit["committed_date"]) . '<br>' . $commit["message"];
+                //echo '<li> ' . date("m/d/o g:i A", $commit["committed_date"]) . '<br>' . $commit["message"];
+                echo '<li> ' . date("m-d-o g:i A", strtotime($commit["committed_date"])) . '<div style="color:#999;">' . $commit["message"] . "</div>";
                 $i++;
                 if ($i == 5) { break; }
             }	    
