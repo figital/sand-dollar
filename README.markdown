@@ -17,3 +17,5 @@ As I learn PHP I'm just pulling over application concepts from other environment
 
 If I wind up switching to ArchLinux I'll try to provide configs for both 
 types of systems.
+
+this quick edit to test the email hook.
