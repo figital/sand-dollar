@@ -2,8 +2,12 @@
 
 	error_reporting(E_ALL);
 
-	include("/var/www/sand-dollar/lib/dBug/dBug.php");
-	include("/var/www/sand-dollar/lib/php-github-api/phpGitHubApi.php");
+    define('DOC_ROOT', realpath(dirname(__FILE__) . '/../'));
+    define('URL_ROOT', substr(DOC_ROOT, strlen(realpath($_SERVER['DOCUMENT_ROOT']))) . '/');
+	
+
+	include(DOC_ROOT . "/lib/dBug/dBug.php");
+	include(DOC_ROOT . "/lib/php-github-api/phpGitHubApi.php");
 	
 	session_start();
 	

@@ -18,3 +18,5 @@ As I learn PHP I'm just pulling over application concepts from other environment
 If I wind up switching to ArchLinux I'll try to provide configs for both 
 types of systems.
 
+I'd like to make this easy to plug the session space into your choice of user databases, not to require that you use a built-in userspace manager (LDAP/twitter/SQL/whatever).
+
